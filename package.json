@@ -1,0 +1,27 @@
+{
+  "name": "assignment-eassygenerator",
+  "version": "1.0.0",
+  "description": "Testing my cypress skills with Easygenerator Test Automation team",
+  "main": "index.js",
+  "scripts": {
+    "start-server": "http-server -o task.html",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "assignment",
+    "eassygenerator",
+    "cypress",
+    "typescript",
+    "e2e"
+  ],
+  "author": "Sathishkumar Periyasamy",
+  "license": "ISC",
+  "devDependencies": {
+    "@cypress/webpack-preprocessor": "^6.0.2",
+    "cypress": "^13.13.0",
+    "http-server": "^14.1.1",
+    "typescript": "^5.5.3"
+  }
+}
