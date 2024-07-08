@@ -19,6 +19,9 @@ export default defineConfig({
         webpackOptions: {
           resolve: {
             extensions: ['.ts', '.js'],
+            alias: {
+              '@pages': path.resolve(__dirname, 'cypress/support/pages')
+            }
           },
           module: {
             rules: [
@@ -60,7 +63,7 @@ export default defineConfig({
 
       return config;
     },
-    specPattern: 'cypress/integration/**/*.cy.{js,jsx,ts,tsx}',
+    specPattern: 'cypress/e2e/*.cy.{js,jsx,ts,tsx}',
     defaultCommandTimeout: 8000,
     pageLoadTimeout: 60000,
     viewportWidth: 1280,
