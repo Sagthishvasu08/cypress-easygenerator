@@ -17,7 +17,6 @@ To set up the project, follow these steps:
 1. Clone the repository:
     ```bash
     git clone https://github.com/Sagthishvasu08/cypress-easygenerator.git
-    cd assignment-eassygenerator
     ```
 
 2. Install the dependencies:
