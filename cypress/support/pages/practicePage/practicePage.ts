@@ -1,7 +1,7 @@
-class HomePage {
+class PracticePage {
     visit() {
       cy.visit('/task.html');
     }
   }
   
-  export default HomePage;
+  export default PracticePage;

@@ -40,6 +40,21 @@ export default defineConfig({
       };
       on('file:preprocessor', webpack(options));
 
+      // Define the task to read alert-text.txt file
+      on('task', {
+        readAlertText() {
+          const filePath = path.resolve(__dirname, 'alert-text.txt');
+          return new Promise((resolve, reject) => {
+            fs.readFile(filePath, 'utf8', (err, data) => {
+              if (err) {
+                return reject(err);
+              }
+              resolve(data);
+            });
+          });
+        }
+      });
+
       // Access environment variables from cypress.env.json
       try {
         const envConfig = getEnvConfig();
@@ -70,5 +85,6 @@ export default defineConfig({
     viewportHeight: 720,
     video: true,
     screenshotOnRunFailure: true,
+    chromeWebSecurity: false
   },
 });
