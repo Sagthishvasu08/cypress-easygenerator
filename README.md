@@ -1,10 +1,10 @@
-# Assignment EasyGenerator
+# Cypres Automation using Typrscrypt 
 
 This repository contains an assignment to test Cypress skills with the Easygenerator Test Automation team. The project includes scripts to run a local server and execute Cypress tests in both headless and open modes.
 
 ## Project Information
 
-- **Project Name**: assignment-eassygenerator
+- **Project Name**: cypress-easygenerator
 - **Version**: 1.0.0
 - **Description**: Testing my Cypress skills with Easygenerator Test Automation team
 - **Author**: Sathishkumar Periyasamy

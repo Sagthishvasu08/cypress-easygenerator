@@ -6,7 +6,6 @@ import PracicePageOpenTab from '@pages/practicePage/practicePageOpenTab';
 import PracticePageAlerts from '@pages/practicePage/practicePageAlerts';
 import PracticePageShowHide from '@pages/practicePage/practicePageShowHide';
 import PracticePageMouseHover from '@pages/practicePage/practicePageMousehover';
-import PracticePageIframe from '@pages/practicePage/practicePageIframe';
 import FooterSection from '@pages/practicePage/footerSection';
 import 'cypress-iframe';
 const practicePage = new PracticePage();
