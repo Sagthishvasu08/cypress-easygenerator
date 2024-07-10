@@ -1,4 +1,4 @@
-# Cypres Automation using Typrscrypt 
+# Cypres Automation using Typrscript 
 
 This repository contains an assignment to test Cypress skills with the Easygenerator Test Automation team. The project includes scripts to run a local server and execute Cypress tests in both headless and open modes.
 
